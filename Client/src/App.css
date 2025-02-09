@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e2e8f0;
+}
+
+/* In src/index.css or styles.css */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 2s ease-in-out infinite;
+}
